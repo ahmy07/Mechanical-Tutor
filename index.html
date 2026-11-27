@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mechanical Tutor is an adaptive AI-powered learning assistant that helps students understand concepts, practise questions and track their progress.">
+  <title>Mechanical Tutor | Learn Smarter</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #f1f5f9;
+      line-height: 1.7;
+    }
+    header {
+      padding: 24px 8%;
+      border-bottom: 1px solid #263247;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .logo { font-size: 22px; font-weight: bold; color: #60a5fa; }
+    nav a { color: #cbd5e1; margin-left: 20px; text-decoration: none; }
+    nav a:hover { color: #60a5fa; }
+    main { max-width: 950px; margin: auto; padding: 90px 24px; }
+    .tag {
+      color: #60a5fa;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    h1 { font-size: clamp(38px, 7vw, 65px); line-height: 1.1; margin: 18px 0; }
+    h1 span { color: #60a5fa; }
+    .intro { color: #cbd5e1; font-size: 19px; max-width: 700px; }
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 13px 24px;
+      border-radius: 8px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { margin-top: 75px; }
+    h2 { font-size: 28px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      padding: 24px;
+      border: 1px solid #263247;
+      border-radius: 12px;
+      background: #111c30;
+    }
+    .card h3 { color: #93c5fd; }
+    .muted { color: #94a3b8; }
+    footer {
+      border-top: 1px solid #263247;
+      padding: 30px 8%;
+      color: #94a3b8;
+      text-align: center;
+    }
+    footer a { color: #93c5fd; margin: 0 8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Mechanical Tutor</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="tag">Adaptive learning powered by AI</div>
+    <h1>Understand more.<br><span>Learn smarter.</span></h1>
+    <p class="intro">
+      Mechanical Tutor is an AI-powered educational assistant designed
+      to help students build real understanding through personalised
+      explanations, guided practice and continuous feedback.
+    </p>
+    <a class="button" href="#features">Explore Mechanical Tutor</a>
+
+    <section id="about">
+      <h2>What is Mechanical Tutor?</h2>
+      <p class="muted">
+        Mechanical Tutor adapts its teaching to each learner. Instead of
+        simply giving answers, it identifies knowledge gaps, explains
+        concepts in manageable steps and checks understanding before
+        moving forward.
+      </p>
+    </section>
+
+    <section id="features">
+      <h2>What can it do?</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Personalised lessons</h3>
+          <p class="muted">Lessons adapt to your current understanding and learning needs.</p>
+        </div>
+        <div class="card">
+          <h3>Guided practice</h3>
+          <p class="muted">Practise questions and receive feedback that helps you improve.</p>
+        </div>
+        <div class="card">
+          <h3>Progress tracking</h3>
+          <p class="muted">Keep track of topics covered, strengths and areas to improve.</p>
+        </div>
+        <div class="card">
+          <h3>Mastery-based learning</h3>
+          <p class="muted">Build a solid understanding before moving on to harder material.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Created by Ahmed Z. Sohail</h2>
+      <p class="muted">
+        Mechanical Tutor is an independent educational project built
+        to make structured, personalised learning more accessible.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Mechanical Tutor</p>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </footer>
+</body>
+</html>
